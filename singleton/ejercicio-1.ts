@@ -6,9 +6,6 @@
     - Asegurar que solo exista una instancia de Configuracion en toda la aplicación.
 */
 
-interface OpcionesDeAplicacion {
-}
-
 class Configuracion {
     private static instancia?: Configuracion;
     private idioma: string = "es";
